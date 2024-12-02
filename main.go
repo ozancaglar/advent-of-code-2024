@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/ozancaglar/advent-of-code-2024/day1"
 	"strconv"
 	"strings"
+
+	"github.com/ozancaglar/advent-of-code-2024/day1"
+	"github.com/ozancaglar/advent-of-code-2024/day2"
 
 	"github.com/manifoldco/promptui"
 )
@@ -18,6 +20,7 @@ func main() {
 
 	days := []day{
 		{Day: "1", Function: day1.Solve},
+		{Day: "2", Function: day2.Solve},
 	}
 
 	templates := &promptui.SelectTemplates{
