@@ -7,6 +7,7 @@ import (
 
 	"github.com/ozancaglar/advent-of-code-2024/day1"
 	"github.com/ozancaglar/advent-of-code-2024/day2"
+	"github.com/ozancaglar/advent-of-code-2024/day3"
 
 	"github.com/manifoldco/promptui"
 )
@@ -21,6 +22,7 @@ func main() {
 	days := []day{
 		{Day: "1", Function: day1.Solve},
 		{Day: "2", Function: day2.Solve},
+		{Day: "3", Function: day3.Solve},
 	}
 
 	templates := &promptui.SelectTemplates{
